@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\titleformat{\section}
+{\large\bfseries}
+{\thesection.}{0.5em}{}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{Synopsis} \\[0.5cm]
+    
+    \normalsize
+    \textbf{Spin Polarization Studies in Half-Metallic Co$_2$TiX (X = Ge and Sn) Heusler Alloys}
+\end{center}
+
+\vspace{0.5cm}
+
+\section{Introduction}
+
+Heusler alloys are an important group of ferromagnetic materials that are widely studied for their use in spintronics. These materials show high spin polarization and high Curie temperatures, which make them useful for devices such as magnetic tunnel junctions, spin injectors, and giant magnetoresistive devices. Among the Heusler alloys, Co-based compounds are especially important because of their half-metallic ferromagnetic properties.
+
+The present study focuses on the ternary Heusler alloys Co$_2$TiGe and Co$_2$TiSn to study their structural, magnetic, and spin polarization properties. The aim of this work is to check whether these alloys show half-metallic behavior and to evaluate their usefulness for spintronic applications.
+
+
+\section{Experimental Method}
+
+Polycrystalline samples of Co$_2$TiGe and Co$_2$TiSn were synthesized using the arc melting technique in an inert atmosphere. To improve homogeneity, the samples were repeatedly melted and subsequently annealed at 1073 K for 21 days under vacuum.
+
+Structural characterization was performed using powder X-ray diffraction (XRD) with Cu-K$\alpha$ radiation. Magnetic measurements were carried out using a vibrating sample magnetometer attached to a Physical Property Measurement System (PPMS). Spin polarization measurements were conducted at 4.2 K using the Point Contact Andreev Reflection (PCAR) technique with a superconducting Nb tip. The conductance curves obtained were analyzed using the modified Blonder-Tinkham-Klapwijk (BTK) model.
+
+\section{Results and Discussion}
+
+XRD analysis confirmed that both Co$_2$TiGe and Co$_2$TiSn crystallize in the ordered L2$_1$ cubic structure with space group Fm-3m. The lattice parameters obtained were found to agree well with previously reported values.
+
+Magnetic measurements revealed Curie temperatures of 384 K for Co$_2$TiGe and 371 K for Co$_2$TiSn. Saturation magnetization values at 5 K were observed to be 1.8 $\mu_B$/f.u. and 2.0 $\mu_B$/f.u. respectively. The value for Co$_2$TiSn closely follows the Slater-Pauling rule, indicating half-metallic behavior.
+
+Spin polarization studies using the PCAR technique showed high current spin polarization values of approximately 0.63 for Co$_2$TiGe and 0.64 for Co$_2$TiSn. These high values indicate a strong imbalance between majority and minority spin carriers, confirming the half-metallic ferromagnetic nature of the alloys.
+
+The results also demonstrate that the structural order of the alloys significantly influences their magnetic and transport properties. The combination of high Curie temperature and large spin polarization suggests that these materials are promising candidates for spintronic device applications.
+
+\section{Conclusion}
+
+The study successfully investigated the structural, magnetic, and spin polarization properties of Co$_2$TiGe and Co$_2$TiSn Heusler alloys. Both compounds exhibit ordered L2$_1$ crystal structures and high Curie temperatures. The measured spin polarization values confirm their half-metallic character. Due to their excellent magnetic and transport properties, these alloys show strong potential for future spintronic technologies.
+
+\vspace{0.5cm}
+
+\section*{Reference}
+
+L. Bainsla and K.G. Suresh, ``Spin polarization studies in half-metallic Co$_2$TiX (X = Ge and Sn) Heusler alloys,'' \textit{Current Applied Physics}, vol. 16, pp. 68--72, 2016.
+
+\end{document}
