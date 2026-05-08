@@ -1,0 +1,69 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{amsmath}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\titleformat{\section}
+{\large\bfseries}
+{\thesection.}{0.5em}{}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{Synopsis} \\[0.4cm]
+
+    \normalsize
+    \textbf{Coexisting Cubic and Tetragonal Phases with Ferrimagnetism in Equiatomic Quaternary Heusler Alloys CuTCrAl (T = Co and Fe)}
+\end{center}
+
+\vspace{0.5cm}
+
+\section{Introduction}
+
+Heusler alloys are a technologically important class of magnetic materials due to their remarkable electronic and magnetic properties such as half-metallic ferromagnetism, spin-gapless semiconductivity, and tunable magnetic ordering. Equiatomic quaternary Heusler alloys are particularly attractive because their structural and electronic properties can be modified through atomic substitution and phase engineering.
+
+The present work investigates the structural, magnetic, and transport properties of the quaternary Heusler alloys CuCoCrAl (CCCA) and CuFeCrAl (CFCA). The study mainly focuses on the coexistence of cubic and tetragonal phases, the emergence of ferrimagnetism, and the influence of disorder on magnetic and transport behavior. Such materials are of great interest for spin transfer torque (STT) and spintronic applications because of their low saturation magnetization and tunable magnetic characteristics.
+
+\section{Experimental Methods}
+
+Polycrystalline samples of CuCoCrAl and CuFeCrAl were prepared by arc melting stoichiometric amounts of high-purity constituent elements under argon atmosphere. Titanium was used as an oxygen getter to minimize contamination. The ingots were repeatedly melted to ensure homogeneity and annealed at 850$^\circ$C for seven days followed by furnace cooling.
+
+Structural characterization was carried out using room-temperature X-ray diffraction (XRD) with Cu-K$\alpha$ radiation. Neutron powder diffraction (NPD) measurements were performed at different temperatures to investigate both crystal and magnetic structures. Rietveld refinement was carried out using the FullProf suite.
+
+Magnetic measurements including temperature-dependent magnetization and isothermal magnetization were performed using a vibrating sample magnetometer attached to a Physical Property Measurement System (PPMS). Electrical resistivity measurements were conducted using the standard four-probe technique under different magnetic fields.
+
+\section{Results and Discussion}
+
+XRD and neutron diffraction studies confirmed that both CuCoCrAl and CuFeCrAl crystallize in mixed phases consisting of cubic and tetragonal Heusler structures. The cubic phase belongs to the LiMgPdSn-type structure, while the tetragonal phase arises due to lattice distortion. The phase fraction analysis revealed a larger tetragonal contribution in CuCoCrAl compared to CuFeCrAl.
+
+Structural refinement also indicated the presence of antisite disorder. CuCoCrAl exhibited B2-type disorder, whereas CuFeCrAl showed A2-type disorder. Neutron diffraction provided more accurate structural information because of the different neutron scattering lengths of the constituent atoms.
+
+Low-temperature neutron diffraction measurements revealed ferrimagnetic ordering in both alloys. The magnetic moments at different atomic sites were aligned antiparallel, producing a net ferrimagnetic state with low overall magnetization. The coexistence of ferromagnetic and antiferromagnetic interactions originating from cubic and tetragonal phases is responsible for this ferrimagnetic behavior.
+
+Temperature-dependent magnetization measurements showed weak itinerant ferromagnetic behavior. CuCoCrAl exhibited a Curie temperature around 204 K, while CuFeCrAl retained magnetic ordering even at room temperature. Both alloys displayed thermomagnetic irreversibility between zero-field-cooled and field-cooled curves, indicating competing magnetic interactions and re-entrant magnetic behavior at low temperatures.
+
+Isothermal magnetization measurements showed small hysteresis loops and low saturation magnetization values. The experimentally observed magnetic moments deviated from the Slater-Pauling rule, suggesting the absence of ideal half-metallicity. This deviation is attributed to structural disorder, tetragonal distortion, and ferrimagnetic ordering.
+
+Electrical resistivity measurements confirmed metallic behavior in both alloys. Low residual resistivity ratio values indicated significant disorder within the crystal structure. A resistivity upturn was observed at low temperatures due to weak localization effects. Detailed fitting analysis revealed contributions from electron-electron scattering, electron-phonon scattering, and one-magnon scattering mechanisms.
+
+The presence of one-magnon scattering and weak localization suggests that pure half-metallic behavior is absent in both alloys. The tetragonal distortion and structural disorder reduce spin polarization by introducing both spin channels at the Fermi level.
+
+\section{Conclusion}
+
+The study demonstrated that CuCoCrAl and CuFeCrAl are unique quaternary Heusler alloys exhibiting coexistence of cubic and tetragonal phases along with ferrimagnetic ordering. Structural disorder and tetragonal distortion significantly influence their magnetic and transport properties.
+
+Both alloys exhibit weak itinerant ferromagnetism, low saturation magnetization, ferrimagnetic ground states, and metallic transport behavior with weak localization effects. The deviation from Slater-Pauling behavior indicates the absence of ideal half-metallicity. Owing to their low magnetic moments and tunable magnetic characteristics, these materials are promising candidates for spin transfer torque and spintronic applications.
+
+\vspace{0.5cm}
+
+\section*{Reference}
+
+S. Gupta, A.K. Patel, S. Mukherjee, P.D. Babu, S.D. Kaushik, and K.G. Suresh, ``Coexisting cubic and tetragonal phases with ferrimagnetism in equiatomic quaternary Heusler alloys: CuTCrAl (T = Co and Fe),'' \textit{Journal of Magnetism and Magnetic Materials}, vol. 583, 170992, 2023.
+
+\end{document}
