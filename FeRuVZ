@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Synopsis}}\\[0.5cm]
+    
+    {\large \textbf{Structural, Magnetic and Transport Properties of FeRuVZ (Z = Si, Ge) Heusler Alloys: Experiment and Theory}}
+\end{center}
+
+\vspace{0.5cm}
+
+\section*{Introduction}
+
+Heusler alloys are an important class of materials widely studied for their remarkable magnetic, electronic, and transport properties. These materials are especially useful in spintronics due to their high spin polarization and tunable electronic structures. Equiatomic quaternary Heusler alloys (EQHAs) have attracted attention because their physical properties can be modified through elemental substitution and atomic disorder.
+
+The present work investigates two equiatomic quaternary Heusler alloys, namely FeRuVSi (FRVS) and FeRuVGe (FRVG). The study combines experimental measurements and first-principles theoretical calculations to understand their structural, magnetic, and transport behaviour. Particular emphasis is given to the role of antisite disorder between Fe and Ru atoms and its influence on magnetic and electronic properties.
+
+\section*{Objectives}
+
+\begin{itemize}
+    \item To synthesize FeRuVSi and FeRuVGe Heusler alloys.
+    \item To analyze their crystal structure and compositional homogeneity.
+    \item To study magnetic and transport properties experimentally.
+    \item To investigate electronic structure and spin polarization using density functional theory (DFT).
+    \item To understand the effect of antisite disorder on magnetic moment and transport behaviour.
+\end{itemize}
+
+\section*{Methodology}
+
+Polycrystalline samples of FeRuVSi and FeRuVGe were prepared using arc melting followed by annealing at high temperature. Structural characterization was performed using X-ray diffraction (XRD) and Rietveld refinement. Scanning electron microscopy (SEM) and energy dispersive spectroscopy (EDS) were used for compositional analysis.
+
+Magnetic measurements were carried out using SQUID-VSM magnetometry, while transport measurements such as resistivity, magnetoresistance, and Hall effect were performed using a Physical Property Measurement System (PPMS).
+
+Theoretical calculations were carried out using density functional theory (DFT) implemented in the Vienna Ab-initio Simulation Package (VASP). The effect of antisite disorder was studied using special quasi-random structures (SQS).
+
+\section*{Results and Discussion}
+
+The XRD analysis confirmed that both alloys crystallize in the cubic LiMgPdSn-type Heusler structure with space group F$\bar{4}$3m (No. 216). Significant B2-type antisite disorder between Fe and Ru atoms was observed in both materials.
+
+Magnetic measurements revealed ferromagnetic ordering below the Curie temperatures of approximately 84 K for FeRuVSi and 57 K for FeRuVGe. FeRuVSi showed saturating magnetization behaviour, while FeRuVGe exhibited nearly saturating behaviour due to enhanced disorder effects.
+
+Electrical resistivity measurements indicated metallic conduction in both alloys. Negative magnetoresistance was observed, and its magnitude increased near the Curie temperature due to suppression of spin-disorder scattering.
+
+Hall effect measurements confirmed electron-mediated conduction and showed the presence of anomalous Hall effect contributions below the Curie temperature.
+
+Theoretical calculations predicted nearly half-metallic behaviour with high spin polarization in the ordered structures. However, the inclusion of antisite disorder reduced spin polarization and modified magnetic coupling, especially in FeRuVGe where V atoms developed antiferromagnetic alignment.
+
+\section*{Conclusion}
+
+The study demonstrates that FeRuVSi and FeRuVGe are promising quaternary Heusler alloys with interesting magnetic and transport properties relevant to spintronic applications. Antisite disorder plays a crucial role in determining their magnetic moment, spin polarization, and transport behaviour. The combined experimental and theoretical analysis provides valuable insight into the design of future spintronic materials based on Heusler alloys.
+
+\vspace{0.5cm}
+
+\section*{Reference}
+
+\begin{enumerate}
+    \item S. Paul, B. Bandyopadhyay, A. Alam, and K. G. Suresh, ``Structural, magnetic and transport properties of FeRuVZ (Z = Si, Ge) Heusler alloys: Experiment and theory,'' \textit{Journal of Alloys and Compounds}, vol. 1000, p. 175020, 2024. DOI: \texttt{10.1016/j.jallcom.2024.175020}.
+\end{enumerate}
+
+\end{document}
