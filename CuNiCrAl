@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{amsmath}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\titleformat{\section}
+{\large\bfseries}
+{\thesection.}{0.5em}{}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{Synopsis} \\[0.4cm]
+
+    \normalsize
+    \textbf{Griffiths Phase-Like Behavior with Compensated Ferrimagnetism and Spin Valve Effect in Quaternary Heusler Alloy CuNiCrAl}
+\end{center}
+
+\vspace{0.5cm}
+
+\section{Introduction}
+
+Heusler alloys are an important class of magnetic materials extensively studied for spintronic applications due to their high spin polarization, tunable magnetic ordering, and transport properties. Quaternary Heusler alloys, in particular, attract significant attention because structural disorder and atomic substitution can lead to novel magnetic and electronic phenomena such as half-metallicity, spin-gapless semiconductivity, compensated ferrimagnetism, and spin valve behavior.
+
+The present study investigates the structural, magnetic, and transport properties of the quaternary Heusler alloy CuNiCrAl (CNCA). Special emphasis is placed on understanding the influence of atomic disorder and mixed structural phases on the magnetic interactions, Griffiths phase-like behavior, half-metallicity, and spin valve effect observed in the alloy.
+
+\section{Experimental Methods}
+
+Polycrystalline CuNiCrAl alloy was synthesized using the arc melting technique in a high-purity argon atmosphere with stoichiometric amounts of constituent elements. The ingot was repeatedly melted for homogeneity and annealed at 850$^\circ$C for seven days in an evacuated quartz tube.
+
+Structural characterization was carried out using room temperature X-ray diffraction (XRD) with Cu-K$\alpha$ radiation. Neutron diffraction (ND) measurements were performed to determine atomic ordering and phase composition more accurately. Magnetization measurements were conducted using a vibrating sample magnetometer attached to a Physical Property Measurement System (PPMS). Electrical resistivity and magnetoresistance measurements were performed using the standard four-probe technique.
+
+\section{Results and Discussion}
+
+XRD and neutron diffraction analysis revealed that CuNiCrAl crystallizes in a mixed structural phase consisting predominantly of a cubic LiMgPdSn-type structure along with a smaller tetragonal phase. The cubic and tetragonal phases coexist in approximately 90.7:9.3 ratio. Structural refinement confirmed the presence of B2-type antisite disorder in the cubic phase caused by atomic swapping between constituent elements.
+
+Magnetization measurements showed extremely small magnetic moments with negligible coercivity, indicating fully compensated ferrimagnetic (FCF) behavior. The temperature-dependent magnetization curves exhibited bifurcation between zero-field-cooled and field-cooled conditions along with a hump near 170 K corresponding to a spin reorientation transition. Negative Curie-Weiss temperatures suggested dominant antiferromagnetic interactions within the alloy.
+
+The inverse susceptibility deviated from the Curie-Weiss law below nearly 270 K, indicating the presence of Griffiths phase-like behavior. Power law analysis further confirmed the existence of short-range ferromagnetic clusters embedded in a non-ferromagnetic matrix. Arrott plot analysis showed the absence of long-range ferromagnetic ordering even at low temperatures.
+
+Electrical resistivity measurements displayed metallic behavior with distinct transport mechanisms in different temperature regions. At low temperatures, resistivity followed a non-quadratic temperature dependence, indirectly indicating half-metallic behavior. Weak localization effects and electron-magnon scattering were also observed.
+
+Magnetoresistance measurements exhibited unsaturated and asymmetric behavior under applied magnetic fields at 5 K. The asymmetric magnetoresistance resembles spin valve-like behavior generally observed in multilayer systems. This effect is attributed to competing magnetic interactions between ferromagnetic nanoclusters and the compensated ferrimagnetic matrix arising due to structural disorder and mixed phases.
+
+The coexistence of Griffiths phase-like behavior, fully compensated ferrimagnetism, half-metallicity, and spin valve effect within a single material makes CuNiCrAl highly significant for multifunctional spintronic applications.
+
+\section{Conclusion}
+
+The study successfully demonstrated that CuNiCrAl is a unique quaternary Heusler alloy exhibiting complex structural, magnetic, and transport properties. The alloy possesses mixed cubic and tetragonal phases with B2 disorder, leading to compensated ferrimagnetism and Griffiths phase-like behavior.
+
+Transport studies revealed signatures of half-metallicity and asymmetric magnetoresistance associated with spin valve-like effects at low temperatures. The coexistence of these multiple functionalities in a single material highlights the strong potential of CuNiCrAl for future spintronic and magnetic switching applications.
+
+\vspace{0.5cm}
+
+\section*{Reference}
+
+S. Gupta, A.K. Patel, S. Mukherjee, P.D. Babu, S.D. Kaushik, N. Ray, and K.G. Suresh, ``Griffiths phase-like behavior with compensated ferrimagnetism and spin valve effect in quaternary Heusler alloy CuNiCrAl,'' \textit{Journal of Alloys and Compounds}, vol. 1010, 177836, 2025.
+
+\end{document}
