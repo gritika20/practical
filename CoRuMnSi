@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{amsmath}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\titleformat{\section}
+{\large\bfseries}
+{\thesection.}{0.5em}{}
+
+\begin{document}
+
+\begin{center}
+    \Large \textbf{Synopsis} \\[0.4cm]
+
+    \normalsize
+    \textbf{Half-Metallic Ferromagnetism and Ru-Induced Localization in Quaternary Heusler Alloy CoRuMnSi}
+\end{center}
+
+\vspace{0.5cm}
+
+\section{Introduction}
+
+Heusler alloys are an important class of magnetic materials that have attracted significant interest due to their potential applications in spintronic devices. These materials can exhibit half-metallic ferromagnetism, spin-gapless semiconducting behavior, and high spin polarization. Among them, quaternary Heusler alloys are especially important because their electronic and magnetic properties can be tuned through atomic substitution and structural ordering.
+
+The present study investigates the equiatomic quaternary Heusler alloy CoRuMnSi using both experimental and theoretical methods. The work focuses on understanding its structural ordering, magnetic properties, electronic band structure, and transport behavior. Special attention is given to the effect of Ru substitution and disorder on the half-metallic nature of the alloy.
+
+\section{Experimental and Theoretical Methods}
+
+Polycrystalline CoRuMnSi alloy was synthesized using the arc melting technique under high-purity argon atmosphere. To compensate for Mn evaporation during melting, excess Mn was added. The ingot was remelted several times for homogeneity and then annealed at 800$^\circ$C for seven days followed by furnace cooling.
+
+Room temperature X-ray diffraction (XRD) measurements were carried out using Cu-K$\alpha$ radiation. Structural analysis and Rietveld refinement were performed using the FullProf suite. Magnetization measurements were conducted using a vibrating sample magnetometer attached to a Physical Property Measurement System (PPMS). Electrical resistivity measurements were performed using the four-probe technique.
+
+Theoretical investigations were carried out using density functional theory (DFT) within the generalized gradient approximation (GGA). Electronic band structures, density of states, and magnetic moments were calculated using the Vienna Ab-initio Simulation Package (VASP).
+
+\section{Results and Discussion}
+
+XRD analysis confirmed that CoRuMnSi crystallizes in an L2$_1$-type disordered Heusler structure instead of the ideal Y-type structure. The disorder originates from a 50\% swap between Co and Ru atoms occupying tetrahedral sites. Despite the presence of disorder, the alloy maintains good structural stability.
+
+Magnetization measurements revealed soft ferromagnetic behavior with a saturation magnetization of approximately 3.92 $\mu_B$/f.u. at 3 K, which closely agrees with the value predicted by the Slater-Pauling rule. The Curie temperature was found to be nearly 780 K, indicating strong ferromagnetic ordering well above room temperature.
+
+Electrical resistivity measurements showed metallic behavior at higher temperatures and a localization effect below 35 K. The absence of a $T^2$ dependence in resistivity indirectly supports the half-metallic nature of the alloy.
+
+Theoretical calculations confirmed the half-metallic ferromagnetic behavior of CoRuMnSi. The spin-resolved density of states showed a clear band gap in the minority spin channel, while the majority spin channel remained metallic. Detailed band structure analysis revealed that the localization effect arises due to the overlap of flat $e_g$ bands with sharply varying conduction bands near the Fermi level. These flat bands mainly originate from Ru atoms.
+
+Theoretical simulations further demonstrated that Co-Ru swap disorder does not significantly affect the half-metallic nature or total magnetic moment of the alloy. This robustness against disorder makes the material highly attractive for practical applications.
+
+\section{Conclusion}
+
+The study successfully demonstrated that CoRuMnSi is a promising half-metallic ferromagnetic Heusler alloy with high Curie temperature and robust magnetic properties. Experimental investigations confirmed the L2$_1$ disordered crystal structure and strong ferromagnetic behavior, while theoretical calculations established its half-metallic electronic structure.
+
+The alloy exhibits stability against structural disorder without significant degradation of its magnetic and electronic properties. Owing to its high Curie temperature, half-metallic nature, and robustness, CoRuMnSi is a strong candidate for future spintronic device applications.
+
+\vspace{0.5cm}
+
+\section*{Reference}
+
+Y. Venkateswara, D. Rani, K.G. Suresh, and A. Alam, ``Half-metallic ferromagnetism and Ru-induced localization in quaternary Heusler alloy CoRuMnSi,'' \textit{Journal of Magnetism and Magnetic Materials}, vol. 502, 166536, 2020.
+
+\end{document}
